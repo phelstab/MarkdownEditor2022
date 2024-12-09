@@ -8,6 +8,11 @@ using Microsoft.VisualStudio.Imaging.Interop;
 using Microsoft.VisualStudio.Package;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.TextManager.Interop;
+using System;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.Shell;
+using Community.VisualStudio.Toolkit;
+using Microsoft.VisualStudio.Shell.Interop;
 
 namespace MarkdownEditor2022
 {

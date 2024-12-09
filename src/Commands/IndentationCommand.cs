@@ -5,7 +5,8 @@ using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Text.Editor.Commanding.Commands;
 using Microsoft.VisualStudio.Utilities;
-
+using System;
+using Microsoft.VisualStudio.Shell;
 namespace MarkdownEditor2022
 {
     [Export(typeof(ICommandHandler))]

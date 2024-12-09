@@ -3,6 +3,11 @@ using Markdig;
 using Markdig.Syntax;
 using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Threading;
+using System;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.Shell;
+using Community.VisualStudio.Toolkit;
+using Microsoft.VisualStudio.Shell.Interop;
 
 namespace MarkdownEditor2022
 {

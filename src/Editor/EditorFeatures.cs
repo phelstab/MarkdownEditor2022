@@ -14,6 +14,11 @@ using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Text.Tagging;
 using Microsoft.VisualStudio.Threading;
 using Microsoft.VisualStudio.Utilities;
+using System;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.Shell;
+using Community.VisualStudio.Toolkit;
+using Microsoft.VisualStudio.Shell.Interop;
 
 namespace MarkdownEditor2022
 {

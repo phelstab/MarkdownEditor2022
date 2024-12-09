@@ -1,4 +1,10 @@
-﻿namespace MarkdownEditor2022
+﻿using System;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.Shell;
+using Community.VisualStudio.Toolkit;
+using Microsoft.VisualStudio.Shell.Interop;
+
+namespace MarkdownEditor2022
 {
     [Command(PackageIds.OpenSettings)]
     internal sealed class OpenSettingsCommand : BaseCommand<OpenSettingsCommand>

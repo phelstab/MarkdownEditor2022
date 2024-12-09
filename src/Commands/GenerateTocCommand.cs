@@ -1,8 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using Community.VisualStudio.Toolkit;
+using EnvDTE;
 using Markdig.Syntax;
+using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Text;
 using Slugify;
 
@@ -18,7 +23,7 @@ namespace MarkdownEditor2022
         {
             Command.Supported = false;
             return base.InitializeCompletedAsync();
-        }        
+        }
 
         protected override async Task ExecuteAsync(OleMenuCmdEventArgs e)
         {

@@ -7,6 +7,9 @@ using System.Windows;
 using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Text.Editor.DragDrop;
+using System;
+using Microsoft.VisualStudio.Shell;
+
 
 namespace MarkdownEditor2022
 {

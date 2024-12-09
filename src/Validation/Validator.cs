@@ -3,6 +3,11 @@ using System.Linq;
 using Markdig.Syntax;
 using Markdig.Syntax.Inlines;
 using MarkdownEditor2022.Validation;
+using System;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.Shell;
+using Community.VisualStudio.Toolkit;
+using Microsoft.VisualStudio.Shell.Interop;
 
 namespace MarkdownEditor2022
 {

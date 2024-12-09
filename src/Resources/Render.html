@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/asciidoctor.js/1.5.5-5/asciidoctor.min.js"></script>
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        window.renderContent = function(adoc) {
+            var asciidoctor = Asciidoctor();
+            var html = asciidoctor.convert(adoc, {
+                safe: 'safe',
+                backend: 'html5'
+            });
+            document.getElementById('content').innerHTML = html;
+        }
+    </script>
+</body>
+</html>

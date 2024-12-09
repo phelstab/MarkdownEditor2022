@@ -6,6 +6,11 @@ using Markdig.Renderers.Normalize.Inlines;
 using Markdig.Syntax;
 using Microsoft.VisualStudio.Text.Adornments;
 using mshtml;
+using System;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.Shell;
+using Community.VisualStudio.Toolkit;
+using Microsoft.VisualStudio.Shell.Interop;
 
 namespace MarkdownEditor2022.Validation
 {

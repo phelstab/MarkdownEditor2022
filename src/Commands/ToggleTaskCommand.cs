@@ -1,6 +1,11 @@
 ﻿using System.Text.RegularExpressions;
 using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Text;
+using System;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.Shell;
+using Community.VisualStudio.Toolkit;
+using Microsoft.VisualStudio.Shell.Interop;
 
 namespace MarkdownEditor2022
 {
